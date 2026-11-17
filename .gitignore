@@ -1,0 +1,38 @@
+# Build artifacts
+build/
+*.o
+*.so
+*.a
+*.dylib
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Binaries
+app
+*.bin
+*.elf
+*.out
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Generated files
+*.mo
+*.gmo
+*.po
+!*.pot
+
+# Other
+*.log
+graphify-out/
+.cache/
